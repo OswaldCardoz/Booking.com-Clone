@@ -1,0 +1,114 @@
+/* .footer{
+    width: 100%;
+    max-width: 1024px;
+    font-size: 12px;
+    margin: auto;
+}
+.flists{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    align-items: center;
+}
+.flist-1{
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+.flist-2{
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+.flist-4{
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+.flist-5{
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+.flist-t{
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+.flistitem{
+    margin-bottom: 10px;
+    color: #003580;
+} */
+
+
+.footer {
+    width: 100%;
+    max-width: 1024px;
+    font-size: 12px;
+    margin: auto;
+  }
+  
+  .flists {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  
+  .flist-1,
+  .flist-2,
+  .flist-4,
+  .flist-5,
+  .flist-t {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+    flex: 1; /* Each list takes equal width */
+    max-width: 200px; /* Maximum width for each list */
+  }
+  
+  .flistitem {
+    margin-bottom: 10px;
+    color: #003580;
+  }
+  
+  /* @media only screen and (max-width: 768px) {
+    .flists {
+      flex-direction: column; /* Change to a column layout on smaller screens */
+      /* align-items: flex-start; /* Align items to the start */
+    /* } */ 
+  
+    /* .flist-1, */
+    /* .flist-2, */
+    /* .flist-4,/ */
+    /* .flist-5, */
+    /* .flist-t { */
+      /* max-width: none; Remove max-width on smaller screens */
+    /* } */
+  /* } */ 
+  
+/* @media only screen and (max-width: 960px) {
+    /* .flists {
+      /* justify-content: flex-start; Align the single list to the start */
+    /* } */
+
+    /* .flist-1,
+    .flist-2,
+    .flist-4,
+    .flist-5,
+    .flist-t {
+      display: none; /* Hide other lists */
+    /* } */
+   
+    /* .ftext {
+      display: flex; /* Display only the specified list */
+      /* background-color: #006ce4; /* Background color for the visible list */
+      /* width: 542px;
+      height: 100px;
+      justify-content: center; */
+      /* color: white; */ 
+
+    /* } */ 
+  /* } */ 

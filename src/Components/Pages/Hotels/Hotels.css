@@ -1,0 +1,112 @@
+.list-container-hotels {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .list-wrapper-hotels {
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .list-search-hotels {
+    flex: 1;
+    background-color: #febb02;
+    padding: 10px;
+    border-radius: 10px;
+    position: sticky;
+    top: 10px;
+    height: max-content;
+  }
+  
+  .lsTitle{
+    font-size: 20px;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .lsItem{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .lsItem>label{
+    font-size: 12px;
+  }
+  
+  .lsItem>input{
+    height: 30px;
+    border: none;
+    padding: 5px;
+  }
+  .lsItem>span{
+    height: 30px;
+    padding: 5px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .lsOptions{
+    padding: 10px;
+  }
+  
+  .lsOptionItem{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    color: #555;
+    font-size: 12px;
+  }
+  
+  .lsOptionInput{
+    width: 50px;
+  }
+  
+  .list-search-hotels>button , .filterBtn{
+    padding: 10px;
+    background-color: #0071c2;
+    color: white;
+    border: none;
+    width: 100%;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  .list-results-hotels {
+    flex: 3;
+  }
+  .facilities-checkbox label {
+    display: block;
+    margin-bottom: 8px; /* Adjust the margin as needed */
+  }
+  
+  /* Optional: Add some styling to the checkboxes */
+  .facilities-checkbox input[type="checkbox"] {
+    margin-right: 8px; /* Add some spacing between the checkbox and text */
+  }
+
+  .list-results-hotels {
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add your preferred box shadow values here */
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+  }
+  
+  .searchItem-hotels:hover {
+    transform: scale(1.05); /* Add your preferred scaling value here */
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }

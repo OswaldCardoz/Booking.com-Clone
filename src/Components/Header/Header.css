@@ -1,0 +1,206 @@
+/* 
+.header{
+    background-color: #003580;
+    color: white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding: 20px; */
+/* } */
+/* .headerf{
+    background-color: antiquewhite;
+    color: white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    /* padding: 20px; */
+/* } */ 
+/* .header-container{
+    width: 100%;
+    max-width: 1024px;
+    margin: 20px 0px 100px 0px;
+} */
+/* .header-contentf{
+    width: 100%;
+    color: black;
+    /* margin: 20px 0px 100px 0px; */
+    /* background-color: antiquewhite; */
+/* } */
+/* .header-containerf{
+    width: 100%;
+    max-width: 1024px;
+    margin: 20px 0px 0px 0px;
+} */
+/* .header-container.hotels{
+    margin: 20px 0px 0px 0px;
+} */
+/* .header-list{
+    display: flex;
+    gap: 40px;
+} */ 
+/* .list-item{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header-desc{
+    margin: 20px 0;
+} */
+/* .list-item.active {
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 20px;
+  }
+
+.header-search{
+    height: 30px;
+    background-color: white;
+    border: 3px solid #febb02;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: -25px;
+    width: 100%;
+    max-width: 1024px;
+} */
+/* .header-searchf{
+    height: 30px;
+    background-color: white;
+    border: 3px solid #febb02;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0px;
+    border-radius: 5px;
+    /* position: absolute; */
+    /* height: 80px; */
+    /* bottom: -25px;
+    width: 100%;
+    max-width: 1024px; */
+/* } */ 
+/* .header-icon{
+    color: lightgray;
+} */
+/* .header-search-item{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+} */
+/* .header-search-input{
+    border: none;
+    outline: none;
+} */
+/* .header-btn{
+    background-color: #0071c2;
+    color: white;
+    font-weight: 500;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    height: 49px;
+    width: 120px;
+} */
+/* .header-search-text{
+    color: lightgray;
+    cursor: pointer;
+    /* white-space: nowrap;
+    overflow: hidden; 
+    text-overflow: ellipsis; */
+/* } */ 
+/* .date{
+   position: absolute;
+   top: 50px;
+} */
+/* .options{
+position: absolute;
+top: 50px;
+background-color: white;
+color: gray;
+border-radius: 5px;
+box-shadow: 0px 0px 10px -5px rgba(0,0,0,0.4);
+} */
+
+/* .option-item{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+.option-counter{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 12px;
+    color: black;
+} */
+/* .option-counterBtn{
+width: 30px;
+height: 30px;
+border: 1px solid #0071c2;
+cursor: pointer;
+background-color: white;
+}
+.option-counterBtn:disabled{
+cursor: not-allowed;
+} */
+
+/* .datef{
+    /* position: absolute; */
+    /* top: 50px; */
+ /* } */ 
+ /* .header-list {
+    flex-direction: column; /* Display list items in a column on smaller screens */
+/* } */ 
+/* 
+.header-search-item {
+    flex-direction: column; /* Display search items in a column on smaller screens */
+    /* margin-bottom: 10px; Add some spacing between search items */
+    /* border: 1px solid #e0e0e0; Add borders to search items */
+    /* padding: 10px; Add padding to search items */
+/* } */ 
+
+/* @media (min-width: 768px) {
+    .header-list {
+        flex-direction: row; /* Display list items in a row on larger screens */
+    /* } */
+
+    /* .header-search-item { */
+        /* flex-direction: row; Display search items in a row on larger screens */
+        /* margin-bottom: 0; Remove margin between search items */
+    /* } */
+/* } */ 
+/* Responsive Styles */
+/* @media (max-width: 768px) {
+    .header {
+        padding: 1px;
+    }
+
+    .header-list {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .header-search .header-searchf{
+        padding: 3px;
+        height: 48px;
+        width: 96%;
+    }
+
+    .header-search-item {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .header-btn .header-btnf {
+        width: auto;
+    }
+    .header-search-item{
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+} */

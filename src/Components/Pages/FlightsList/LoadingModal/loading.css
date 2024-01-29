@@ -1,0 +1,44 @@
+.loading-modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    border: none;
+    overflow: hidden;
+  }
+  
+  .loading-overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 53, 128, 0.5); /* Blue color */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+  }
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 53, 128, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+  }
+  .modal-content {
+    position: relative;
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 8px;
+    /* max-width: 600px; Adjust the max-width as needed */
+    width: 100px;
+    max-height: 500px; /* Set the max-height to 500px */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }

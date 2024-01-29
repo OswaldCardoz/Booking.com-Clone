@@ -1,0 +1,93 @@
+/* 
+.browse-property-container{
+    /* border: 2px solid black; */
+    /* margin-top: 60px; */
+    /* display: flex; */
+    /* align-items: center;
+    flex-direction: column;
+    gap: 16px;
+    margin-left: 50px; */
+   /* }  */
+   
+   .browse-property-content{
+      padding-bottom: 20px;
+   } 
+
+  /* .browse-property-content img{
+       border-radius: 8px;
+       width: 244px;
+       height: 196px;
+   }
+    */
+   /* @media screen and (max-width: 768px) {
+       .browse-property-container>h2{
+           text-align: center;
+       }
+   } */
+   /* browsebyproperty.css */
+
+.browse-property-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    /* display: block; */
+
+  }
+  .browse-head{
+    position: relative;
+    margin-top: 30px;
+  }
+  
+  .property-card {
+    text-align: center;
+    padding: 10px;
+    width: 220px;
+  }
+  
+  .property-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .property-card h4 {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    
+  }
+  
+  /* Adjust the space between the cards */
+  .react-multi-carousel-item {
+    margin-right: 108px; /* Adjust the space between the cards as needed */
+  }
+  
+  /* Remove extra space around the carousel */
+  .react-multiple-carousel__arrow {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .react-multi-carousel-dot-list {
+    bottom: 0;
+    margin: 0;
+  }
+  
+  .react-multi-carousel-dot button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  .react-multi-carousel-dot--active button {
+    background-color: #007bff;
+    width: 10px;
+    height: 10px;
+  }
+  
+  .react-multi-carousel-item.react-multi-carousel-item{
+    width: 200px !important; /* Set the width to 250px*/
+  }
+  

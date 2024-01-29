@@ -1,0 +1,179 @@
+
+/* .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Modal Content Styles */
+  /* .modal-content {
+    position: relative;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  } */
+  
+  /* Close Button Styles */
+  /* .modal-content .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    color: #333;
+  } */ 
+  
+  /* Add more styles based on your specific design */
+  
+
+
+
+  /* Modal Overlay Styles */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+/* Modal Content Styles */
+.modal-content {
+  position: relative;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 600px; /* Adjust the max-width as needed */
+  width: 100%;
+  max-height: 500px; /* Set the max-height to 500px */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Close Button Styles */
+.modal-content .close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 18px;
+  color: #333;
+}
+
+/* Hotel modal Card Styles within the Modal */
+.hotel-modal-cards {
+  display: flex;
+  gap: 12px;
+  padding: 8px;
+  box-shadow: 0px 2px 8px 0px grey;
+  border-radius: 4px;
+}
+
+.hotels-modal-img-div > img {
+  width: 180px;
+  height: 280px;
+  object-fit: cover;
+}
+
+.details-price-modal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.hotel-modal-details-div {
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.hotel-modal-details-div > h2 {
+  color: #006CE4;
+}
+
+.airport-taxi-modal {
+  display: inline-block;
+  width: fit-content;
+  background-color: #008234;
+  color: white;
+  font-size: 12px;
+  padding: 3px;
+  border-radius: 4px;
+}
+
+.bed-detail-modal {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.green-para-modal {
+  color: #008234;
+  font-weight: bold;
+}
+
+.ratings-price-modal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.hotels-rating-modal {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+.rating-para-modal {
+  background-color: #006CE4;
+  width: 30px;
+  height: 30px;
+  color: white;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hotels-price-modal {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.hotels-price-modal > p {
+  color: grey;
+}
+
+.hotels-price-modal > .check-room {
+  background-color: #006CE4;
+  width: 100%;
+  height: 32px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  padding-top: 5px;
+  justify-content: center;
+}
+
+.hotels-price-modal > button:hover {
+  background-color: #003580;
+}

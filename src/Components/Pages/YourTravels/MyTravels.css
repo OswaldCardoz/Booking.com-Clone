@@ -1,0 +1,47 @@
+/* .parent-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.child-container {
+    width: 80%;
+    max-width: 1200px;
+} */
+
+.my-trip-container {
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.heading-mytrips {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.my-trips-card {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.my-trips-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.booking-type-date {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.error-message {
+    color: red;
+}
+
+.green-para {
+    color: green;
+}
